@@ -1,4 +1,4 @@
-python train_wrn_faster.py -a resnet18 --data /shared/imagenet --epochs 15 --gpu 0 -b 512 --wd 0.00001 --vis -j 8 --norm batch --lr 3 --blr 0.01 --elr 0.00005
+python train_wrn_faster.py -a resnet18 --data /shared/imagenet --epochs 15 --gpu 0 -b 512 --wd 0.00001 --vis -j 8 --lr 3 --blr 0.01 --elr 0.00005
 
 
 2021-01-22 15:46:16,642 - [line:86]: save log to ./runs/SCE/imagenet/0122154616@resnet18-epochs=15-sgd-lr=3.0-weight_decay=1e-05-batch_size=512@87667
